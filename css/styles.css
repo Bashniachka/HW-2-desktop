@@ -1,14 +1,47 @@
 :root {
     --header-color: #ffffff;
-    --primary-text-color: #555555;
-    --second-text-color: #303030;
-    --third-text-color: #9da4bd;
-    --primary-title-color: #ffffff;
-    --secondary-title-color: #303030;
-    --accent-color: #ff6c00;}
+    --text-color: #757575;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --primary-title-color: #212121;
+    --accent-color: #2196F3;}
 
 
 body {
 font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+/* ----------------header---------------- */
+.header {
+    background-color: var(--header-color)
+}
+
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color)
 }
