@@ -8,6 +8,7 @@
     --darck-background-color: #2F303A;
     --light-background-color: #F5F4FA;
     --main-background-color: #ffffff;
+    --hero-btn-color: #188CE8;
     }
 
 
@@ -113,12 +114,12 @@ background-color: var(--main-background-color);
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--header-color);
-    background: #188CE8;
+    background-color: var(--hero-btn-color);
 }
 
-.btn:hover,
-.btn:focus {
-    color: var(--accent-color)
+.hero-btn:hover,
+.hero-btn:focus {
+    color: var(--hero-btn-color);
 }
 
 /* ----------------advantage---------------- */
@@ -127,6 +128,7 @@ background-color: var(--main-background-color);
 }
 
 .section-title {
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-title-color);
@@ -215,7 +217,15 @@ background-color: var(--main-background-color);
     text-align: center;
     letter-spacing: inherit;
     color: var(--primary-title-color);
+    background-color: var(--light-background-color);
 }
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--header-color);
+    background-color: var(--accent-color);
+}
+
 
 .exemple-title {
     font-size: 18px;
