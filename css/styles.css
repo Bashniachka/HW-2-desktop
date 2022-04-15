@@ -113,6 +113,7 @@ background-color: var(--main-background-color);
     line-height: 1.88;
     letter-spacing: 0.06em;
     color: var(--header-color);
+    background: #188CE8;
 }
 
 .btn:hover,
